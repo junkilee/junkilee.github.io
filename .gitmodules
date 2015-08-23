@@ -1,9 +1,3 @@
-[submodule "static/slate"]
-	path = static/slate
-	url = git@github.com:junkilee/slate.git 
-[submodule "static/modernist"]
-	path = static/modernist
-	url = git@github.com:junkilee/modernist.git 
 [submodule "static/minimal"]
 	path = static/minimal
-	url = git@github.com:junkilee/minimal.git
+	url = git@github.com:junkilee/minimal.git 
