@@ -1,13 +1,13 @@
-title: A github:pages Blog
-tagline: github:pages is great!
+title: Jun Ki Lee
+tagline: Blog and Portfolio Pages
 owner: Jun Ki Lee
-link: https://github.com/christopherpoole/ghpblog
+link: http://junkilee.github.io
 copyright: Copyright Jun Ki Lee 2015
 
 
-pygments: true
+highlighter: true
 permalink: '/:title'
-markdown: rdiscount
+markdown: kramdown
 
 exclude: [README.md]
 
