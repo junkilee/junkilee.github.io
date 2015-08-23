@@ -7,11 +7,10 @@ copyright: Copyright Jun Ki Lee 2015
 
 permalink: '/:title'
 markdown: kramdown
-highlighter: rouge
 
 kramdown:
     input: GFM
-    syntax_highlighter: rouge
+    syntax_highlighter: pygments
 
 exclude: [README.md]
 
