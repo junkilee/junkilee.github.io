@@ -5,7 +5,7 @@ title: This is a test post
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in metus in felis semper dignissim. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas eleifend mollis dignissim. Nunc ut magna quis sem porta venenatis. Proin ut mauris et enim pretium luctus. Curabitur convallis commodo sagittis. Vivamus tristique nunc ut est vestibulum vitae accumsan quam molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
-~~~ python
+``` python
 def nothing(val):
     pass
 
@@ -14,7 +14,7 @@ if __name__ == "__main__":
 
     for v in vals:
         nothing(v)
-~~~
+```
 
 $$ x^2 $$
 

@@ -5,9 +5,13 @@ link: http://junkilee.github.io
 copyright: Copyright Jun Ki Lee 2015
 
 
-highlighter: true
 permalink: '/:title'
 markdown: kramdown
+highlighter: rouge
+
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 
 exclude: [README.md]
 
