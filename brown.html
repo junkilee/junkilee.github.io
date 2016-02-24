@@ -1,0 +1,22 @@
+---
+layout: minimal_default 
+title: Jun Ki Lee's Main Page
+---
+
+<h2>Welcome to Jun(dʒuːn)'s portfolio homepage.</h2><br>
+
+<img align="right" width="180px" style="border:1px solid #999; margin: 8px; padding: 3px" src="images/me.jpg">
+I am currently a PhD student in the <a href="http://cs.brown.edu">Department of Computer Science</a> at <a href="http://brown.edu">Brown University</a> and advised by Prof. <a href="http://cs.brown.edu/~mlittman/">Michael L. Littman</a>. My research focuses are in robotics, task and motion planning, machine learning (especially reinforcement learning), robotics perception (computer vision), and humand robot interaction (HRI). <br><br>
+
+Previously, I finished my Master's in the Media Arts and Sciences at <a href="http://www.mit.edu">MIT</a> <a href="http://www.media.mit.edu">Media Lab</a>. I worked at the <a href="http://robotic.media.mit.edu/">Personal Robots Group</a> led by Prof. <a href="http://cynthiabreazeal.media.mit.edu/">Cynthia L. Breazeal</a>.<br>
+I received my Bachelor of Science in <a href="http://cse.snu.ac.kr">Computer Science and Engineering</a> at <a href="http://www.snu.ac.kr">Seoul National University</a>.<br><br>
+
+This semester, I am teaching a course CSCI0931. Please visit <a href="http://cs.brown.edu/courses/csci0931/2016-spring/">the course website</a> for more information. My office hours for this week are Wendnesday 3~5pm (or by an appointment). My office is at CIT (115 Waterman St.) 315.<br>
+
+<br><br>
+<hr>
+<h2>Blog Posts</h2>
+{% for post in site.posts %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+	<span class="index_date"> {{ post.date | date_to_long_string }}</span><br>
+{% endfor %}
