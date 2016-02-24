@@ -7,7 +7,7 @@ copyright: Copyright Jun Ki Lee 2015
 
 permalink: '/:title'
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 #kramdown:
 #    input: GFM
