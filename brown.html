@@ -1,22 +1,50 @@
 ---
 layout: minimal_default 
-title: Jun Ki Lee's Main Page
+title: Jun Ki Lee - MIT Projects
 ---
 
-<h2>Welcome to Jun(dʒuːn)'s portfolio homepage.</h2><br>
-
-<img align="right" width="180px" style="border:1px solid #999; margin: 8px; padding: 3px" src="images/me.jpg">
-I am currently a PhD student in the <a href="http://cs.brown.edu">Department of Computer Science</a> at <a href="http://brown.edu">Brown University</a> and advised by Prof. <a href="http://cs.brown.edu/~mlittman/">Michael L. Littman</a>. My research focuses are in robotics, task and motion planning, machine learning (especially reinforcement learning), robotics perception (computer vision), and humand robot interaction (HRI). <br><br>
-
-Previously, I finished my Master's in the Media Arts and Sciences at <a href="http://www.mit.edu">MIT</a> <a href="http://www.media.mit.edu">Media Lab</a>. I worked at the <a href="http://robotic.media.mit.edu/">Personal Robots Group</a> led by Prof. <a href="http://cynthiabreazeal.media.mit.edu/">Cynthia L. Breazeal</a>.<br>
-I received my Bachelor of Science in <a href="http://cse.snu.ac.kr">Computer Science and Engineering</a> at <a href="http://www.snu.ac.kr">Seoul National University</a>.<br><br>
-
-This semester, I am teaching a course CSCI0931. Please visit <a href="http://cs.brown.edu/courses/csci0931/2016-spring/">the course website</a> for more information. My office hours for this week are Wendnesday 3~5pm (or by an appointment). My office is at CIT (115 Waterman St.) 315.<br>
+<style>
+ul {
+line-height:1.4;
+}
+td {
+font-size:80%;
+}
+</style>
+<a href="http://cs.brown.edu" border=0><img src="images/brown.gif" width="60px" align="left" border=0 style="margin-right: 10px"></a>
+<h4>
+	<br>
+	I study Robotics, Reinforcement Learning, Task and Motion Planning.
+</h4>
+<br>
+<h3>
+	Teleoperation of Robot Manipulation through Goal Specification <br><span style="font-size:80%">Bringing in Context and Environment Awareness</span>
+</h3>	
+<img src="images/interface_overall.png" width="300px" align="left"> <img src="images/templates.png" width="255px" align="right">
+<br><br> <br><br> <br><br> <br><br> <br><br>
+<br><br> <br><br> <br>
+<ul>
+Direct teleoperation had been the most prevalent form of humans’ remote operation of robots in completing sophisticated manipulation tasks. When using direct teleoperation tools, due to the complexity of robot motion, human operators mostly focus their attention on solving low-level motion control.  This would lead to the operators’ heightened cognitive load. We propose a new approach to programming robots by providing an interface which a human operator can model the world and set goal states for a given task. Operators are able to locate three dimensional (3D) templates on points clouds to set the initial poses, grasp positions and goal positions of objects. We also provide a novel method for a human to designate grasp access points for a complex object like a bookshelf for more effective motion planning. In this work, for comparison we picked two existing frameworks, the interactive marker based direct control and way-point based control systems. While a human operator controls the robot for the pick and place task, the pilot study measured total execution and operation time and execution failure rates. The proposed goal-based interface took the least execution time and has the lowest failure rate among the three interfaces. From the NASA TLX questionnaire results, the goal-based interface requires the least effort in order to complete the tasks.
 
 <br><br>
-<hr>
-<h2>Blog Posts</h2>
-{% for post in site.posts %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
-	<span class="index_date"> {{ post.date | date_to_long_string }}</span><br>
-{% endfor %}
+J. K. Lee (2015), “Teleoperation for Robot Manipulation through Goal Specification”, PhD Forum, the 2015 IEEE International Conference on Robotics and Automation (ICRA), Seattle, Washington.<br>
+J. K. Lee, and O. C. Jenkins (2014), "Goal-Based Teleoperation for Robot Manipulation", presented at AAAI Fall Symposium on Artificial Intelligence for Human-Robot Interaction, Arlington, Va, 2014.
+<br>
+</ul>
+<br>
+<h3> Classes </h3>
+<ul>
+<TABLE width=90% class="subject">
+<TR><th>Subject Name</th><th>Instructors</th></TR>
+<TR><td class="tacky"><B>Human Robot Interaction Seminar</B></td> <TD>Prof. Odest Chadwicke Jenkins</TD></TR>
+<TR><td class="tacky"><B>Grounded Language for Robots</B></td> <TD>Prof. Stefanie Tellex</TD></TR>
+<TR><td class="tacky"><B>Introduction to Computational Linguistics</B></td> <TD>Prof. Eugene Charniak</TD></TR>
+<TR><td class="tacky"><B>Building Intelligent Robots</B></td> <TD>Prof. Odest Chadwicke Jenkins</TD></TR>
+<TR><td class="tacky"><B>Computational Probabiltiy and Statistics</B></td> <TD>Prof. Stuart Geman</TD></TR>
+<TR><td class="tacky"><B>Probabilistic Graphical Models</B></td> <TD>Prof. Erik Sudderth</TD></TR>
+<TR><td class="tacky"><B>Probabilistic Methods in Computer Science</B></td> <TD>Prof. Eli Upfal</TD></TR>
+<TR><td class="tacky"><B>Human Computer Interaction Seminar</B></td> <TD>Prof. Jeff Huang</TD></TR>
+<TR><td class="tacky"><B>Learning and Sequential Decision Making</B></td> <TD>Prof. Michael Littman</TD></TR>
+</TABLE>
+</ul>
+
