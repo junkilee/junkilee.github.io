@@ -7,6 +7,6 @@ title: Jun Ki Lee's Blogs
 <hr>
 <h2>Blog Posts</h2>
 {% for post in site.posts %}
-    <a href="{{ post.url }}">{{ post.title }}</a>
+  <a href="{{ post.url }}">{{ post.title }}</a>
 	<span class="index_date"> {{ post.date | date_to_long_string }}</span><br>
-	{% endfor %}
+{% endfor %}
