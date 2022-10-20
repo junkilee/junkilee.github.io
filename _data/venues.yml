@@ -1,6 +1,25 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Ap.AI":
+  url: https://onlinelibrary.wiley.com/journal/26895595
+"HRI":
+  url: https://humanrobotinteraction.org/
+"ICSR":
+  url: https://link.springer.com/conference/socrob
+"Arxiv":
+  url: https://arxiv.org/
+"CHI":
+  url: https://sigchi.org/
+"AAAI":
+  url: https://aaai.org/
+"RO-MAN":
+  url: https://www.ieee-ras.org/conferences-workshops/financially-co-sponsored/ro-man  
+"AR":
+  url: https://www.tandfonline.com/journals/tadr20#:~:text=Advanced%20Robotics%20(AR)%20is%20the,on%20robotics%20science%20and%20technology.
+"IDC":
+  url: https://sigchi.org/conferences/conference-history/idc/
 
-"PhysRev":
-  url: https://journals.aps.org/
+"B.S.":
+  color: "#00369f"
+"M.S.":  
+  color: "#00369f"
+"Ph.D.":  
+  color: "#00369f"
