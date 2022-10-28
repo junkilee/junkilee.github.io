@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: XRL
+description: Explainable Reinforcement Learning by Policy Comparison
+img: assets/img/projects/xrl.jpg
 importance: 1
-category: work
+category: brown
 ---
 
 Every project has a beautiful feature showcase page.
