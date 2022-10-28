@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Huggable
-description: Affordable vvatar control system for personal robots
+description: Affordable avatar control system for personal robots
 img: assets/img/projects/huggable-overall.jpg
 importance: 1
 category: mit
