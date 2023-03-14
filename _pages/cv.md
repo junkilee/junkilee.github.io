@@ -4,5 +4,5 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 1
-cv_pdf: jklee_cv.pdf
+cv_pdf: cv-junkilee.pdf
 ---
